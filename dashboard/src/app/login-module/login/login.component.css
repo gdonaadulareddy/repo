@@ -1,0 +1,15 @@
+.container {
+    background-color: rgb(25, 12, 27);
+    border:1px solid black; 
+    height: 100%;
+}
+
+.header {
+    text-align: left;
+    color: aqua; 
+}
+
+.label {
+    color: burlywood;
+    font-size: 25px;
+}

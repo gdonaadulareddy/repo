@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+            <div class="col-sm-12 header">
+                    <h1> Welcome To Dashboard Login </h1>
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+                <div class="form-group label"> 
+                        <label for="userName" class="col-sm-2">User Name</label>       
+                        <div class="col-sm-4">
+                            <input [(ngModel)]="login.userName" name="userName" class="form-control" placeholder="Your User Name For Login" required/>                               
+                        </div>
+                </div>
+                <div class="form-group label"> 
+                        <label for="password" class="col-sm-12">Password (8 characters min):</label>       
+                        <div class="col-sm-4">
+                            <input [(ngModel)]="login.password" type ="password" name="password" class="form-control" minlength="8" placeholder="Your Password For Login" required/>                               
+                        </div>
+                </div>
+                <div class="form-group label"> 
+                        <div class="col-sm-4">
+                                <a routerLink='/dashboard'><button type="submit" id="btnSubmit" class="btn btn-primary">Login</button></a> <span>{{" "}} </span>
+                         </div>
+                </div>
+    </div>
+</div>
